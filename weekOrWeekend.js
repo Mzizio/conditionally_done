@@ -1,6 +1,4 @@
-
 const assert = require('assert');
-
 //test passing
 assert.equal(weekOrWeekend('Wednesday'), 'week');
 assert.equal(weekOrWeekend('Sunday'), 'weekend');
