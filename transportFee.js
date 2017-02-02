@@ -1,3 +1,4 @@
+const assert=require('assert');
 //The passing test for the function transportFee
 assert.equal(transportFee("morning"),'R20');
 assert.equal(transportFee("afternoon"),'R10');
