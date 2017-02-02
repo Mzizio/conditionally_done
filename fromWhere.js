@@ -1,3 +1,4 @@
+const assert=require('assert');
 //These are the passing test for function fromWhere
 assert.equal(fromWhere('CY'),'Bellville');
 assert.equal(fromWhere('CJ'),'Paarl');
