@@ -1,3 +1,6 @@
+/*Created By:Name:Mxolisi D Mtshali
+            Date:05-02-2017;
+*/
 const assert=require('assert');
 
 //test passing
@@ -12,18 +15,14 @@ assert.equal(def,'just cool');
 
 //This function takes a daytime parameter and returns activities I usually do.
 function isEveryDayWork(daytime){
+ 
  switch(daytime){
-   case "morning":
-     return "do jogging";
-     break;
-   case "afternoon":
-     return "internet search";
-     break;
-   case "night":
-     return "study something new";
-     break;
-   default:
-     return "just cool";
-               
-    }
-};
+  case "morning":return "do jogging";
+  break;
+  case "afternoon":return "internet search";
+  break;
+  case "night":return "study something new";
+  break;
+  default:return "just cool";
+  }
+}
