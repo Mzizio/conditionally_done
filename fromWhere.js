@@ -1,3 +1,6 @@
+/*Created By:Name:Mxolisi D Mtshali
+            Date:02-02-2017;
+*/
 const assert=require('assert');
 //These are the passing test for function fromWhere
 assert.equal(fromWhere('CY'),'Bellville');
