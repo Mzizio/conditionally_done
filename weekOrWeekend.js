@@ -1,3 +1,6 @@
+/*Created By:Name:Mxolisi D Mtshali
+            Date:02-02-2017;
+*/
 const assert = require('assert');
 //test passing
 assert.equal(weekOrWeekend('Wednesday'), 'week');
@@ -7,30 +10,20 @@ assert.equal(weekOrWeekend('Sunday'), 'weekend');
 function weekOrWeekend(day){
   
   switch(day){
-    case "Monday":
-            return "week";
-      break;
-    case "Tuesday":
-            return "week";
-      break;
-    case "Wednesday":
-            return "week";
-      break;
-    case "Thursday":
-            return "week";
-      break;
-    case "Friday":
-            return "week";
-      break;
-    case "Saturday":
-            return "weekend";
-      break;
-    case "Sunday":
-            return "weekend";
-      break;
-      
-    default:
-      return "Invalid day";
-            }
-
-};
+    case "Monday":return "week";
+    break;
+    case "Tuesday":return "week";
+    break;
+    case "Wednesday":return "week";
+    break;
+    case "Thursday":return "week";
+    break;
+    case "Friday":return "week";
+    break;
+    case "Saturday":return "weekend";
+    break;
+    case "Sunday":return "weekend";
+    break;
+    default:return "Invalid day";
+   }
+}
